@@ -29,6 +29,25 @@ function Navbar() {
 
   return (
     <>
+
+ {/* Top bar */}
+      <div style={{ backgroundColor: "#1d3e8e" }} className="p-1 text-white">
+        <div className="max-w-7xl mx-auto flex flex-wrap justify-end items-center px-4 gap-2 md:gap-4">
+          <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm md:text-base">
+            <span className="whitespace-nowrap">Support: +91-9876543210</span>
+            <Link to="/login">
+              <button className="bg-white text-[#1d3e8e] px-3 py-1 rounded font-medium hover:bg-gray-200 transition whitespace-nowrap">
+                Login
+              </button>
+            </Link>
+            <button className="hidden md:inline-block border border-white px-3 py-1 rounded hover:bg-white hover:text-[#1d3e8e] transition whitespace-nowrap">
+              Download Brochure
+            </button>
+          </div>
+        </div>
+      </div>
+
+
       <nav className="p-2 shadow-sm relative z-50 border-b border-gray-200 bg-white">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
           
@@ -54,14 +73,7 @@ function Navbar() {
               </Link>
             ))}
 
-            {/* Login Button */}
-            <Link
-              to="/login"
-              className="bg-[#1d3e8e] text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-blue-700 transition"
-            >
-              <FaSignInAlt />
-              Login
-            </Link>
+           
           </div>
 
           {/* Mobile menu toggle */}
