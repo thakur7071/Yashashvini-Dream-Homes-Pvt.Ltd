@@ -15,13 +15,13 @@ function About() {
       </div>
 
       {/* Main Section */}
-      <div className="mt-10 flex flex-col md:flex-row items-center justify-between px-4 md:px-10 py-10  mb-[-20px]">
+      <div className="mt-8 flex flex-col md:flex-row items-center justify-between px-4 md:px-10 py-10 gap-8 mb-[-20px]">
         {/* Left: Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
             src={ProjectImg}
             alt="About us"
-            className="w-full max-w-[90%] sm:max-w-[400px] lg:max-w-[500px] xl:max-w-[450px] rounded-lg shadow-md object-cover"
+            className="w-full max-w-[90%] sm:max-w-[400px] lg:max-w-[400px] xl:max-w-[450px] rounded-lg shadow-md object-cover"
           />
         </div>
 

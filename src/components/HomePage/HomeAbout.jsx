@@ -6,8 +6,8 @@ function HomeAbout() {
     <div className="bg-white py-20 px-4 md:px-8 lg:px-16">
       {/* Company Introduction */}
       <div className="max-w-6xl mx-auto text-center mb-20">
-        <h2 className="text-4xl font-bold text-[#1d3e8e] mb-6">
-          About Yashashvini Dream Homes Pvt. Ltd
+        <h2 className="text-3xl md:text-4xl font-bold text-[#1d3e8e] mb-6">
+         Yashashvini Homes Pvt. Ltd
         </h2>
         <p className="text-gray-600 text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
           At <strong>Yashashvini Dream Homes Pvt. Ltd</strong>, we aim to transform the way you experience
