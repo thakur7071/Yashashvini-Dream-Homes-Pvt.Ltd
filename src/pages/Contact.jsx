@@ -6,13 +6,10 @@ function Contact() {
   return (
     <>
       {/* Banner */}
-      <div className="overflow-hidden">
-        <img
-          src={ContactBanner}
-          alt="Contact Banner"
-          className=" object-cover"
-        />
+  <div className="lg:h-[22rem] overflow-hidden">
+        <img src={ContactBanner} alt="About Banner" className="w-full h-full object-cover" />
       </div>
+
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto my-10 px-4 flex flex-col lg:flex-row gap-10">

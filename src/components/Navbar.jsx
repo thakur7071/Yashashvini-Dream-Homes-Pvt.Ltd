@@ -11,6 +11,8 @@ import {
   FaSignInAlt
 } from "react-icons/fa";
 
+
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hasMounted, setHasMounted] = useState(false); // SSR flash fix

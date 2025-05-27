@@ -9,6 +9,7 @@ import Homepage2 from './YashashviniImg6.jpg'
 import bgImg from './BackgroundImg.jpg'
 
 
+
 export {
     ReviewImg,
     ReviewImg2,
@@ -18,5 +19,6 @@ export {
     Homepage2,
     HomeAboutImg,
     ProjectImg,
-    bgImg
+    bgImg,
+  
 }
