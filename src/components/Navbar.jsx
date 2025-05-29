@@ -29,8 +29,8 @@ function Navbar() {
     {
       label: "Project",
       submenu: [
-        { href: "/project/skyline", label: "Skyline Residency" },
-        { href: "/project/green-valley", label: "Green Valley Towers" },
+        { href: "/project/skyline-residency", label: "Skyline Residency" },
+        { href: "/project/green-valley-towers", label: "Green Valley Towers" },
       ],
     },
     { href: "/gallery", label: "Gallery" },

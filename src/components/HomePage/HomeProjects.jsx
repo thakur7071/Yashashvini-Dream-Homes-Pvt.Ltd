@@ -1,4 +1,5 @@
-import { Project1, Project2, } from '../../Assets';
+import { Link } from 'react-router-dom';
+import { Project1, Project2 } from '../../Assets';
 
 function HomeProjects() {
   return (
@@ -12,29 +13,32 @@ function HomeProjects() {
         {[{
           img: Project1,
           title: "Skyline Residency",
-          location: "Noida Sector 76, Uttar Pradesh"
+          location: "Noida Sector 76, Uttar Pradesh",
+          id: "skyline"
         }, {
           img: Project2,
           title: "Green Valley Towers",
-          location: "Gurugram Sector 45, Haryana"
+          location: "Gurugram Sector 45, Haryana",
+          id: "green-valley"
         }].map((project, index) => (
           <div
             key={index}
             className="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
           >
             <div className="overflow-hidden aspect-video">
-              <img
-                src={project.img}
-                alt={project.title}
-                className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-              />
+              <Link to={`/project/${project.id}`}>
+                <img
+                  src={project.img}
+                  alt={project.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                />
+              </Link>
             </div>
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-[#1d3e8e] mb-2">
                 {project.title}
               </h3>
               <p className="text-gray-600 text-base">{project.location}</p>
-             
             </div>
           </div>
         ))}
