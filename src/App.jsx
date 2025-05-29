@@ -6,6 +6,9 @@ import Login from "./pages/Login";
 import ScrollToTop from "./components/ScrollToTop";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
+import Career from "./pages/Career";
+import Media from "./pages/Media";
+import Gallery from "./pages/Gallery";
 
 
 
@@ -18,9 +21,12 @@ export default function App() {
           <Route path="" element={<Base />}>
             <Route index element={<Home />} />
             <Route path="/about" element={<About/>}/>
-           <Route path="/project" element={<Project/>}/>
+           <Route path="/project/:projectId" element={<Project/>}/>
             <Route path="/contact" element={<Contact/>}/>
              <Route path="/login" element={<Login/>}/>
+             <Route path="/career" element={<Career/>}/>
+             <Route path="/media" element={<Media/>}/>
+             <Route path="/gallery" element={<Gallery/>}/>
           </Route>
         </Routes>
       

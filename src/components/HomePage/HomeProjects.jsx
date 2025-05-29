@@ -1,8 +1,8 @@
-import { Homepage1, ProjectImg } from '../../Assets';
+import { Project1, Project2, } from '../../Assets';
 
 function HomeProjects() {
   return (
-    <div className="bg-white px-4 md:px-10 py-1">
+    <div className="bg-white px-4 md:px-10">
       <h2 className="text-3xl md:text-4xl font-bold text-[#1d3e8e] mb-14 text-center">
         Our Projects
       </h2>
@@ -10,11 +10,11 @@ function HomeProjects() {
       <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-2">
         {/* Project Card */}
         {[{
-          img: Homepage1,
+          img: Project1,
           title: "Skyline Residency",
           location: "Noida Sector 76, Uttar Pradesh"
         }, {
-          img: ProjectImg,
+          img: Project2,
           title: "Green Valley Towers",
           location: "Gurugram Sector 45, Haryana"
         }].map((project, index) => (

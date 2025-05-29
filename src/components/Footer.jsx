@@ -7,7 +7,8 @@ function Footer() {
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
+      <div className="absolute inset-0 bg-black/70  z-0"></div>
+    
 
       {/* Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">

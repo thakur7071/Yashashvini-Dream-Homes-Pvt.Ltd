@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { HomeAboutImg } from '../../Assets';
+import { bgImg, HomeAboutImg } from '../../Assets';
 
 function HomeAbout() {
   return (
@@ -51,17 +51,17 @@ function HomeAbout() {
       </div>
 
       {/* Vision / Banner Section */}
+    {/* Background Section */}
       <div
-        className="relative bg-cover bg-center bg-no-repeat rounded-xl overflow-hidden"
-        style={{ backgroundImage: `url(${HomeAboutImg})` }}
+        className="mt-10 relative bg-fixed bg-center bg-cover bg-no-repeat "
+        style={{ backgroundImage: `url(${bgImg})` }}
       >
-        <div className="bg-black bg-opacity-60 backdrop-blur-sm py-20 px-4 md:px-10">
-          <div className="max-w-4xl mx-auto text-white text-center">
-            <h3 className="text-4xl font-bold mb-4">Building Tomorrow, Today</h3>
-            <p className="text-lg md:text-xl leading-relaxed">
-              Yashashvini Dream Homes is dedicated to shaping modern communities with future-ready
-              infrastructure. Every brick we lay is rooted in our commitment to excellence,
-              sustainability, and a better tomorrow.
+        <div className="bg-black/60  py-24 px-4 md:px-10">
+          <div className="max-w-5xl mx-auto text-white text-center">
+            <h3 className="text-3xl md:text-4xl font-bold mb-4">Building Tomorrow, Today</h3>
+            <p className="text-base md:text-lg leading-relaxed">
+              We are redefining urban landscapes with technology-driven solutions that prioritize people,
+              planet, and performance. Our commitment is to innovation, integrity, and impact.
             </p>
           </div>
         </div>
