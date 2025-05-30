@@ -14,12 +14,12 @@ function HomeProjects() {
           img: Project1,
           title: "Skyline Residency",
           location: "Noida Sector 76, Uttar Pradesh",
-          id: "skyline"
+          id: "skyline-residency"
         }, {
           img: Project2,
           title: "Green Valley Towers",
           location: "Gurugram Sector 45, Haryana",
-          id: "green-valley"
+          id: "green-valley-towers"
         }].map((project, index) => (
           <div
             key={index}

@@ -6,7 +6,7 @@ function Project() {
   const { projectId } = useParams();
 
   const projectData = {
-    skyline: {
+    'skyline-residency': {
       title: 'Skyline Residency',
       location: 'Sector 45, New City',
       banner: projectbanner1,
@@ -29,7 +29,7 @@ function Project() {
         { img: keyplan, title: 'KeyPlan' },
       ],
     },
-    'green-valley': {
+    'green-valley-towers': {
       title: 'Green Valley Towers',
       location: 'Hillview Road, EcoTown',
       banner: projectbanner2,
