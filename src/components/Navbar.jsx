@@ -55,7 +55,7 @@ function Navbar() {
 
       {/* Navbar */}
       <nav className="bg-white shadow-sm border-b p-2 relative z-50">
-        <div className="max-w-7xl h-20  mx-auto flex justify-between items-center px-4">
+        <div className="max-w-7xl h-15  mx-auto flex justify-between items-center px-4">
  <Link to="/">
   <img
     src={logo}
