@@ -37,9 +37,12 @@ import media9 from './media9.jpeg'
 import media10 from './media10.jpeg'
 import media11 from './media11.jpeg'
 import media12 from './media12.jpeg'
+import logo from './logo.png'
+
 
 export {
-        media1,
+    logo,
+    media1,
     media2,
     media3,
     media4,

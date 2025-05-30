@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactBanner, HomeAboutImg } from '../Assets';
+import { ContactBanner, HomeAboutImg, logo } from '../Assets';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 function Contact() {
@@ -50,8 +50,10 @@ function Contact() {
         {/* Address Info */}
         <div className="flex-1 bg-gray-50 p-8 shadow-xl rounded-2xl flex flex-col justify-center items-center text-center space-y-5">
           {/* Logo */}
-          <div className="w-20 h-20 bg-[#1d3e8e] text-white rounded-full flex items-center justify-center text-3xl font-bold mb-4">
-            <img src=''  alt="logo" />
+          <div className=" flex items-center justify-center text-3xl font-bold mb-4">
+            <img src={logo}  alt="logo"
+          className="h-28 object-contain cursor-pointer"
+            />
           </div>
 
           {/* Title */}

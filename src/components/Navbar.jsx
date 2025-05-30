@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes, FaChevronDown } from "react-icons/fa";
+import { logo} from "../Assets";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,10 +55,14 @@ function Navbar() {
 
       {/* Navbar */}
       <nav className="bg-white shadow-sm border-b p-2 relative z-50">
-        <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
-          <Link to="/">
-            <img src="" alt="logo" className="h-12 sm:h-14 md:h-16 lg:h-20 w-auto max-w-[180px] object-contain cursor-pointer" />
-          </Link>
+        <div className="max-w-7xl h-20  mx-auto flex justify-between items-center px-4">
+ <Link to="/">
+  <img
+    src={logo}
+    alt="logo"
+    className="mt-4 h-28 object-contain cursor-pointer"
+  />
+</Link>
 
           {/* Desktop Links */}
           <div className="hidden md:flex gap-6 font-medium text-black">
